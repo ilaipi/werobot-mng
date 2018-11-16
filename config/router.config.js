@@ -48,6 +48,12 @@ export default [
           },
         ],
       },
+      {
+        name: 'autoReply',
+        icon: 'user',
+        path: '/autoReply',
+        component: './AutoReply/',
+      },
     ],
   },
   {

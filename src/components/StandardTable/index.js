@@ -64,17 +64,11 @@ class StandardTable extends PureComponent {
   render() {
     const { selectedRowKeys, needTotalList } = this.state;
     const {
-      data: { list, pagination },
+      data: { list },
       loading,
       columns,
       rowKey,
     } = this.props;
-
-    const paginationProps = {
-      showSizeChanger: true,
-      showQuickJumper: true,
-      ...pagination,
-    };
 
     const rowSelection = {
       selectedRowKeys,
@@ -115,7 +109,7 @@ class StandardTable extends PureComponent {
           rowSelection={rowSelection}
           dataSource={list}
           columns={columns}
-          pagination={paginationProps}
+          pagination={false}
           onChange={this.handleTableChange}
         />
       </div>
