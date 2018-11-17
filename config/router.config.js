@@ -54,6 +54,12 @@ export default [
         path: '/autoReply',
         component: './AutoReply/',
       },
+      {
+        name: 'wechatMessage',
+        icon: 'user',
+        path: '/wechatMessage',
+        component: './WechatMessage/',
+      },
     ],
   },
   {

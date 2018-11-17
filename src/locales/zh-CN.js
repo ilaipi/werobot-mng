@@ -3,6 +3,7 @@
 export default {
   'navbar.lang': 'English',
   'menu.autoReply': '自动回复',
+  'menu.wechatMessage': '消息管理',
   'menu.platform': '平台管理',
   'menu.platform.home': '首页设置',
   'menu.platform.home.carousel': '轮播图设置',
