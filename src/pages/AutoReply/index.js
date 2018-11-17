@@ -20,7 +20,7 @@ import { filter, map } from 'lodash';
 import StandardTable from '@/components/StandardTable';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 
-import styles from './TableList.less';
+import styles from './style.less';
 
 const FormItem = Form.Item;
 const { Option } = Select;
